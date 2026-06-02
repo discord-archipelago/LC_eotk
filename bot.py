@@ -68,7 +68,7 @@ def get_dtale_chapter(key: str) -> str:
 
 def get_misc_category(key: str) -> str:
     if re.match(r'^Announcer', key):              return "어나운서"
-    if re.match(r'^AbDlg', key):                  return "이상현상대사"
+    if re.match(r'^AbDlg', key):                  return "선택지대사"
     if re.match(r'^Skills_(personality|Ego)', key): return "스킬설명"
     if re.match(r'^Passives?', key):              return "패시브"
     if re.match(r'^Egos', key):                   return "EGO"
@@ -162,7 +162,7 @@ def _extract_misc_entries(item: dict, category: str, scene: str) -> list:
         if not text: return []
         return [{**base, "speaker": "", "content": text, "extra": name}]
 
-    if category == "이상현상대사":
+    if category == "선택지대사":
         dialog = item.get("dialog", "")
         if not dialog: return []
         return [{**base, "speaker": item.get("teller", ""), "content": dialog, "extra": ""}]
@@ -425,8 +425,8 @@ async def search_command(
     await interaction.followup.send(embed=view.make_embed(), view=view)
 
 
-# ── /설명검색 ────────────────────────────────
-@bot.tree.command(name="설명검색", description="인격/스킬/EGO 등 게임 내 설명을 검색하게.")
+# ── /기타 검색 ────────────────────────────────
+@bot.tree.command(name="기타검색", description="인격/스킬/EGO 등 게임 내 설명을 검색하게.")
 @app_commands.describe(
     키워드="검색할 단어 또는 문장 (비워두면 전체)",
     카테고리="검색 범위 (비워두면 전체)"
@@ -434,7 +434,7 @@ async def search_command(
 @app_commands.choices(카테고리=[
     app_commands.Choice(name="전체",        value="all"),
     app_commands.Choice(name="어나운서",    value="어나운서"),
-    app_commands.Choice(name="이상현상 대사", value="이상현상대사"),
+    app_commands.Choice(name="선택지 대사", value="선택지 대사"),
     app_commands.Choice(name="스킬 설명",   value="스킬설명"),
     app_commands.Choice(name="패시브",      value="패시브"),
     app_commands.Choice(name="EGO",         value="EGO"),
