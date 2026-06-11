@@ -474,47 +474,52 @@
     },
     {
       "id": 97,
+      "characterlist": "돈키호테:3",
+      "feeling": "surprise"
+    },
+    {
+      "id": 98,
       "characterlist": "뉴키라:7",
       "feeling": "surprise",
       "soundeffect": "Clap"
     },
     {
-      "id": 98,
+      "id": 99,
       "characterlist": "ALL:-1, 료슈:5",
       "feeling": "angry3"
     },
     {
-      "id": 99,
+      "id": 100,
       "feeling": "angry",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 100,
+      "id": 101,
       "characterlist": "료슈9장:5",
       "feeling": "smile4",
       "effect": "CustomCamShake:[15][9][0.4]",
       "soundeffect": "SFX_Leather_Crumble_Light"
     },
     {
-      "id": 101
-    },
-    {
-      "id": 102,
-      "characterlist": "ALL:-1"
+      "id": 102
     },
     {
       "id": 103,
+      "characterlist": "ALL:-1"
+    },
+    {
+      "id": 104,
       "characterlist": "단테:5,료슈:3",
       "feeling": "angry3",
       "soundeffect": "SFX_Walk_Iron_Once"
     },
     {
-      "id": 104,
+      "id": 105,
       "characterlist": "료슈9장:3",
       "feeling": "close"
     },
     {
-      "id": 105,
+      "id": 106,
       "emotion": "Exclame",
       "cg": "white:FadeIn:[0~0.1],white:FadeOut:[0.1~0.2]",
       "effect": "StandingMove:who=3:to=4:duration=0.3:ease=OutSine:StandingMove:who=3:to=1:duration=1:ease=InOutSine:delay=0.5,CustomCamShake:[55][5][0.4]",
@@ -522,25 +527,25 @@
       "voice": "D_Angry"
     },
     {
-      "id": 106
+      "id": 107
     },
     {
-      "id": 107,
+      "id": 108,
       "emotion": "Sweat",
       "voice": "D_Wick"
     },
     {
-      "id": 108,
+      "id": 109,
       "characterlist": "료슈9장:1",
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 109,
+      "id": 110,
       "characterlist": "료슈:1",
       "feeling": "angry3"
     },
     {
-      "id": 110,
+      "id": 111,
       "characterlist": "ALL:-1, 과거료슈1:3",
       "bg": "story_ring_finger",
       "cg": "white:FadeIn:[0~0.1],white:FadeOut:[0.1~0.2]",
@@ -549,46 +554,46 @@
       "soundeffect": "SFX_Walk_Iron_Once, SFX_Scene_Change_Whoosh"
     },
     {
-      "id": 111,
+      "id": 112,
       "characterlist": "약지아비:7",
       "feeling": "idle2"
     },
     {
-      "id": 112,
+      "id": 113,
       "feeling": "idle",
       "soundeffect": "SFX_Spring_3"
     },
     {
-      "id": 113
+      "id": 114
     },
     {
-      "id": 114,
+      "id": 115,
       "feeling": "sad",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 115,
+      "id": 116,
       "feeling": "smile",
       "effect": "CustomCamShake:[6][10][1]",
       "soundeffect": "SFX_Spring_2, SFX_Walk_Iron_Once"
     },
     {
-      "id": 116,
+      "id": 117,
       "feeling": "idle"
     },
     {
-      "id": 117,
+      "id": 118,
       "feeling": "idle2"
     },
     {
-      "id": 118,
+      "id": 119,
       "feeling": "sad",
       "emotion": "Star",
       "cg": "black:FadeIn:[1~3]",
       "effect": "StandingJump:position=3"
     },
     {
-      "id": 119,
+      "id": 120,
       "characterlist": "ALL:-1, 약지아비:1,검지아비:7",
       "feeling": "idle",
       "bg": "story_index_finger",
@@ -597,49 +602,49 @@
       "soundeffect": "SFX_Walk_Wood_2StepOnly, SFX_Spring_1"
     },
     {
-      "id": 120,
+      "id": 121,
       "feeling": "idle2"
     },
     {
-      "id": 121,
+      "id": 122,
       "feeling": "idle3",
       "soundeffect": "SFX_dummy_20"
     },
     {
-      "id": 122,
+      "id": 123,
       "feeling": "smile",
       "effect": "CustomCamShake:[6][10][0.3]"
     },
     {
-      "id": 123,
+      "id": 124,
       "feeling": "smile3",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 124,
+      "id": 125,
       "feeling": "smile",
       "effect": "Shake:standing:strength=4:vibrato=11:randomness=50:standingIndexes=[1]",
       "soundeffect": "SFX_Spring_2"
     },
     {
-      "id": 125,
+      "id": 126,
       "feeling": "idle"
     },
     {
-      "id": 126,
+      "id": 127,
       "characterlist": "약지아비:-1:mode=FADE_OUT",
       "feeling": "smile3",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 127,
+      "id": 128,
       "characterlist": "검지아비:-1:mode=FADE_OUT:duration=2:delay=2",
       "bg": "story_index_finger:mode=FADE_OUT:duration=2:delay=2",
       "effectv2": "{\"controlCG\": {\"IsBlockToKillCG\":true}}",
       "waittime": 3
     },
     {
-      "id": 128,
+      "id": 129,
       "characterlist": "ALL:-1,료슈:5",
       "feeling": "idle",
       "bg": "story_Giant Stingray Harbor",
@@ -649,23 +654,23 @@
       "soundeffect": "SFX_Scene_Change_Whoosh"
     },
     {
-      "id": 129,
+      "id": 130,
       "characterlist": "료슈9장:5",
       "feeling": "close",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 130,
+      "id": 131,
       "feeling": "idle"
     },
     {
-      "id": 131,
+      "id": 132,
       "characterlist": "료슈:5",
       "feeling": "angry3",
       "soundeffect": "SFX_Cigarette_Fire"
     },
     {
-      "id": 132,
+      "id": 133,
       "characterlist": "ALL:-1",
       "bg": "story_ring_academy",
       "cg": "white:FadeIn:[0~0.1],white:FadeOut:[0.1~0.2]",
@@ -674,56 +679,56 @@
       "soundeffect": "SFX_Walk_Wood_2StepOnly"
     },
     {
-      "id": 133
+      "id": 134
     },
     {
-      "id": 134,
+      "id": 135,
       "characterlist": "약지아이1:7",
       "effect": "CustomCamShake:[5][7][3]",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 135,
+      "id": 136,
       "characterlist": "약지아이2:9",
       "effect": "CustomCamShake:[3][15][2]"
     },
     {
-      "id": 136,
+      "id": 137,
       "characterlist": "과거료슈1:1"
     },
     {
-      "id": 137,
+      "id": 138,
       "effect": "CustomCamShake:[3][15][2]"
     },
     {
-      "id": 138,
+      "id": 139,
       "effect": "CustomCamShake:[5][7][3]"
     },
     {
-      "id": 139,
+      "id": 140,
       "feeling": "sad",
       "emotion": "Angry",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 140,
+      "id": 141,
       "effect": "CustomCamShake:[15][5][2]",
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 141,
+      "id": 142,
       "characterlist": "과거료슈1:-1:mode=FADE_OUT",
       "cg": "black:FadeIn",
       "effect": "CustomCamShake:[45][5][0.4]",
       "soundeffect": "SFX_Head_Hit_Weak"
     },
     {
-      "id": 142,
+      "id": 143,
       "characterlist": "ALL:-1",
       "soundeffect": "SFX_Stretch_HardGrab"
     },
     {
-      "id": 143,
+      "id": 144,
       "characterlist": "ALL:-1, 료슈9장:5",
       "feeling": "close",
       "bg": "story_Giant Stingray Harbor",
@@ -733,20 +738,20 @@
       "soundeffect": "SFX_Cotton_Crumble_SoftNew, SFX_Scene_Change_Whoosh_Slow"
     },
     {
-      "id": 144,
+      "id": 145,
       "characterlist": "료슈:5",
       "feeling": "idle"
     },
     {
-      "id": 145,
+      "id": 146,
       "feeling": "idle2"
     },
     {
-      "id": 146,
+      "id": 147,
       "feeling": "idle"
     },
     {
-      "id": 147,
+      "id": 148,
       "characterlist": "ALL:-1, 과거료슈1:3",
       "bg": "story_middle finger",
       "cg": "white:FadeIn:[0~0.1],white:FadeOut:[0.1~0.2]",
@@ -755,80 +760,80 @@
       "soundeffect": "SFX_Walk_Wood, SFX_Scene_Change_Whoosh_Slow"
     },
     {
-      "id": 148,
+      "id": 149,
       "characterlist": "중지아비:7",
       "feeling": "happy",
       "effect": "CustomCamShake:[8][15][1]",
       "soundeffect": "SFX_Walk_Iron_Once"
     },
     {
-      "id": 149,
+      "id": 150,
       "feeling": "sad"
     },
     {
-      "id": 150,
+      "id": 151,
       "feeling": "surprise",
       "effect": "CustomCamShake:[20][7][0.4]",
       "soundeffect": "SFX_Jean_Crumble_Light, SFX_Chain_Shake"
     },
     {
-      "id": 151
+      "id": 152
     },
     {
-      "id": 152,
+      "id": 153,
       "feeling": "surprise2",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 153,
+      "id": 154,
       "feeling": "smile",
       "emotion": "Fun",
       "effect": "StandingJump:position=3"
     },
     {
-      "id": 154,
+      "id": 155,
       "feeling": "idle2",
       "effect": "StandingMove:who=7:to=9:duration=1:ease=OutSine",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew, SFX_Walk_Hard, SFX_Chain_Drag"
     },
     {
-      "id": 155,
+      "id": 156,
       "characterlist": "중지아비:9",
       "feeling": "sad",
       "emotion": "Question",
       "effect": "StandingMove:who=9:to=16:duration=1:ease=OutSine"
     },
     {
-      "id": 156,
+      "id": 157,
       "soundeffect": "SFX_Walk_Iron_Once"
     },
     {
-      "id": 157,
+      "id": 158,
       "characterlist": "중지아비:9:mode=FADE_IN",
       "feeling": "smile",
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 158,
+      "id": 159,
       "emotion": "Fun"
     },
     {
-      "id": 159,
+      "id": 160,
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 160,
+      "id": 161,
       "feeling": "idle",
       "soundeffect": "SFX_ClothNCoin_Crumble"
     },
     {
-      "id": 161,
+      "id": 162,
       "feeling": "smile",
       "effect": "StandingMove:who=9:to=16:duration=1:ease=OutSine:delay=1.5",
       "soundeffect": "SFX_Walk_Hard, SFX_Rope_Hard, SFX_Chain_Drag"
     },
     {
-      "id": 162,
+      "id": 163,
       "characterlist": "ALL:-1, 히스클리프:5",
       "feeling": "smile",
       "bg": "story_Giant Stingray Harbor",
@@ -838,84 +843,84 @@
       "soundeffect": "SFX_Hair_Care_2, SFX_Scene_Change_Whoosh_Slow"
     },
     {
-      "id": 163,
+      "id": 164,
       "characterlist": "료슈9장:1",
       "feeling": "close"
     },
     {
-      "id": 164,
+      "id": 165,
       "characterlist": "료슈:1",
       "feeling": "angry3",
       "soundeffect": "SFX_Leather_Crumble_Light"
     },
     {
-      "id": 165,
+      "id": 166,
       "feeling": "angry3",
       "emotion": "Angry",
       "soundeffect": "SFX_Stretch_HardGrab"
     },
     {
-      "id": 166,
+      "id": 167,
       "characterlist": "뉴키라:9",
       "feeling": "idle",
       "bgm": "Positive_Sail:70"
     },
     {
-      "id": 167,
+      "id": 168,
       "feeling": "angry2",
       "bgm": "Positive_Sail:35",
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 168,
+      "id": 169,
       "feeling": "angry",
       "bgm": "Positive_Sail:0"
     },
     {
-      "id": 169,
+      "id": 170,
       "characterlist": "ALL:-1",
       "cg": "E903:FadeIn",
       "bgm": "Abandoned",
       "soundeffect": "SFX_Cloth_Crumble, SFX_Scene_Change_Whoosh_Slow"
     },
     {
-      "id": 170,
+      "id": 171,
       "effect": "CustomCamShake:[12][8][2]",
       "soundeffect": "SFX_Chain_Shake"
     },
     {
-      "id": 171,
+      "id": 172,
       "effect": "CustomCamShake:[7][18][2]"
     },
     {
-      "id": 172,
+      "id": 173,
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 173,
+      "id": 174,
       "soundeffect": "SFX_Kick_Flesh_Light, SFX_Blood_Drip:delay=0.08"
     },
     {
-      "id": 174
+      "id": 175
     },
     {
-      "id": 175,
+      "id": 176,
       "soundeffect": "SFX_Rope_Hard"
     },
     {
-      "id": 176
+      "id": 177
     },
     {
-      "id": 177,
+      "id": 178,
       "effect": "CustomCamShake:[7][18][2]",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 178,
+      "id": 179,
       "soundeffect": "SFX_Walk_Hard"
     },
     {
-      "id": 179,
+      "id": 180,
       "characterlist": "과거료슈1:3, 약지아비:7",
       "feeling": "smile",
       "bg": "story_ring_finger",
@@ -924,46 +929,46 @@
       "soundeffect": "SFX_Spring_2, SFX_Rope_Hard, SFX_Scene_Change_Whoosh_Slow"
     },
     {
-      "id": 180,
+      "id": 181,
       "feeling": "idle2",
       "effect": "CustomCamShake:[7][18][2]",
       "soundeffect": "SFX_Table_Hit_Hard"
     },
     {
-      "id": 181,
+      "id": 182,
       "feeling": "sad3",
       "effect": "Shake:standing:strength=4:vibrato=11:randomness=50:standingIndexes=[3]",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 182,
+      "id": 183,
       "feeling": "idle"
     },
     {
-      "id": 183,
+      "id": 184,
       "feeling": "idle2",
       "soundeffect": "SFX_Spring_3"
     },
     {
-      "id": 184,
+      "id": 185,
       "feeling": "sad3",
       "effect": "Shake:standing:strength=4:vibrato=11:randomness=50:standingIndexes=[3]"
     },
     {
-      "id": 185,
+      "id": 186,
       "feeling": "idle"
     },
     {
-      "id": 186,
+      "id": 187,
       "feeling": "sad2",
       "effect": "Shake:standing:strength=4:vibrato=11:randomness=50:standingIndexes=[3]",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 187
+      "id": 188
     },
     {
-      "id": 188,
+      "id": 189,
       "characterlist": "ALL:-1, 료슈:5",
       "feeling": "angry3",
       "bg": "story_Giant Stingray Harbor",
@@ -973,68 +978,65 @@
       "soundeffect": "SFX_Scene_Change_Whoosh_Slow"
     },
     {
-      "id": 189,
+      "id": 190,
       "feeling": "angry5",
       "soundeffect": "SFX_Cigarette_Fire"
     },
     {
-      "id": 190,
+      "id": 191,
       "characterlist": "료슈2:5",
       "feeling": "close"
     },
     {
-      "id": 191,
+      "id": 192,
       "characterlist": "료슈:5",
       "feeling": "idle",
       "soundeffect": "SFX_Leather_Crumble_Light"
     },
     {
-      "id": 192,
+      "id": 193,
       "feeling": "angry3"
     },
     {
-      "id": 193
+      "id": 194
     },
     {
-      "id": 194,
+      "id": 195,
       "feeling": "idle2",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 195,
+      "id": 196,
       "feeling": "close",
       "soundeffect": "SFX_Walk_Iron_Once"
     },
     {
-      "id": 196,
+      "id": 197,
       "effect": "CustomCamShake:[5][15][0.6]",
       "soundeffect": "SFX_Sword_Clank_Small, SFX_Araya_Shake_2"
     },
     {
-      "id": 197,
+      "id": 198,
       "characterlist": "료슈2:5",
       "feeling": "idle2",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 198
+      "id": 199
     },
     {
-      "id": 199,
+      "id": 200,
       "effect": "CustomCamShake:[10][2][2]",
       "soundeffect": "SFX_Grab_Small, SFX_Grab_Small:delay=0.7"
     },
     {
-      "id": 200
+      "id": 201
     },
     {
-      "id": 201,
+      "id": 202,
       "characterlist": "히스클리프:5",
       "feeling": "idle2",
       "soundeffect": "SFX_Cloth_Crumble"
-    },
-    {
-      "id": 202
     },
     {
       "id": 203
@@ -1046,54 +1048,57 @@
       "id": 205
     },
     {
-      "id": 206,
+      "id": 206
+    },
+    {
+      "id": 207,
       "characterlist": "ALL:-1, 오티스:3,뉴키라:5",
       "feeling": "close",
       "soundeffect": "SFX_Walk_Iron_Once"
     },
     {
-      "id": 207,
+      "id": 208,
       "feeling": "surprise",
       "effect": "CustomCamShake:[7][10][1]",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 208,
+      "id": 209,
       "characterlist": "료슈:7",
       "feeling": "idle2",
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 209,
+      "id": 210,
       "feeling": "idle"
     },
     {
-      "id": 210,
+      "id": 211,
       "feeling": "close"
     },
     {
-      "id": 211,
+      "id": 212,
       "feeling": "shock2",
       "emotion": "Question",
       "soundeffect": "SFX_Leather_Crumble_Light"
     },
     {
-      "id": 212,
+      "id": 213,
       "feeling": "idle"
     },
     {
-      "id": 213,
+      "id": 214,
       "feeling": "angry3",
       "soundeffect": "SFX_Cigarette_Fire"
     },
     {
-      "id": 214,
+      "id": 215,
       "feeling": "panic2",
       "emotion": "Serious",
       "bgm": "Positive_Sail:60"
     },
     {
-      "id": 215,
+      "id": 216,
       "characterlist": "히스클리프:1",
       "feeling": "angry3",
       "emotion": "Angry",
@@ -1101,21 +1106,21 @@
       "soundeffect": "SFX_Hair_Care_2"
     },
     {
-      "id": 216,
+      "id": 217,
       "characterlist": "ALL:-1, 단테:5",
       "emotion": "Sweat",
       "bgm": "Positive_Sail:0",
       "voice": "D_Click"
     },
     {
-      "id": 217,
+      "id": 218,
       "characterlist": "히스클리프:7:mode=FADE_IN:duration=0.5",
       "feeling": "idle3",
       "bgm": "Suspicious",
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 218,
+      "id": 219,
       "characterlist": "뉴키라:3",
       "feeling": "smile",
       "emotion": "Music",
@@ -1123,114 +1128,114 @@
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 219,
+      "id": 220,
       "feeling": "angry3",
       "emotion": "Angry",
       "effect": "CustomCamShake:[25][7][0.7]",
       "soundeffect": "SFX_Table_Hit"
     },
     {
-      "id": 220,
+      "id": 221,
       "characterlist": "ALL:-1,야수파1:5",
       "effect": "Transition:type=black:startDuration=0.1:endDuration=0.3:direction=left",
       "soundeffect": "SFX_Walk_Wood_2StepOnly"
     },
     {
-      "id": 221,
+      "id": 222,
       "characterlist": "ALL:-1,히스클리프:7",
       "feeling": "surprise",
       "effect": "Transition:type=black:startDuration=0.1:endDuration=0.3:direction=right"
     },
     {
-      "id": 222,
+      "id": 223,
       "characterlist": "파우스트:5",
       "feeling": "idle2",
       "soundeffect": "SFX_Cloth_Rubbed_Move"
     },
     {
-      "id": 223,
+      "id": 224,
       "feeling": "idle"
     },
     {
-      "id": 224,
+      "id": 225,
       "characterlist": "오티스:3",
       "feeling": "angry2",
       "effect": "CustomCamShake:[10][4][0.3]",
       "soundeffect": "SFX_Phone_GetCall, SFX_Transcevier_Open"
     },
     {
-      "id": 225,
+      "id": 226,
       "effect": "CustomCamShake:[8][7][0.3]",
       "soundeffect": "SFX_Transcevier_Open"
     },
     {
-      "id": 226,
+      "id": 227,
       "characterlist": "ALL:-1,단테:5",
       "voice": "D_Normal"
     },
     {
-      "id": 227,
+      "id": 228,
       "characterlist": "뉴키라:5",
       "feeling": "surprise",
       "effect": "CustomCamShake:[25][10][0.6]",
       "soundeffect": "SFX_Jean_Crumble_Hard"
     },
     {
-      "id": 228,
+      "id": 229,
       "characterlist": "히스클리프:7",
       "feeling": "shork",
       "emotion": "Sweat"
     },
     {
-      "id": 229,
+      "id": 230,
       "feeling": "shock",
       "soundeffect": "SFX_Cotton_Crumble_SoftNew"
     },
     {
-      "id": 230
+      "id": 231
     },
     {
-      "id": 231,
+      "id": 232,
       "characterlist": "ALL:-1,단테:5",
       "emotion": "Sweat",
       "voice": "D_Click"
     },
     {
-      "id": 232
+      "id": 233
     },
     {
-      "id": 233,
+      "id": 234,
       "characterlist": "ALL:-1,료슈:7,뉴키라:5",
       "feeling": "smile",
       "soundeffect": "SFX_Cloth_Crumble"
     },
     {
-      "id": 234,
+      "id": 235,
       "feeling": "close",
       "soundeffect": "SFX_Cigarette_Fire"
     },
     {
-      "id": 235,
+      "id": 236,
       "feeling": "smile2",
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 236
+      "id": 237
     },
     {
-      "id": 237,
+      "id": 238,
       "characterlist": "오티스:1",
       "feeling": "idle",
       "soundeffect": "SFX_Sweat_Crumble_Light"
     },
     {
-      "id": 238,
+      "id": 239,
       "characterlist": "단테:3",
       "cg": "black:FadeIn",
       "voice": "D_Normal"
     },
     {
-      "id": 239,
+      "id": 240,
       "characterlist": "ALL:-1, 앨런:1",
       "feeling": "surprise",
       "bg": "story_middle finger corridor",
@@ -1239,41 +1244,41 @@
       "soundeffect": "SFX_Jean_Crumble_Light"
     },
     {
-      "id": 240
+      "id": 241
     },
     {
-      "id": 241,
+      "id": 242,
       "characterlist": "파우스트:9,오티스:7",
       "feeling": "close",
       "soundeffect": "SFX_Cloth_Rubbed_Move"
     },
     {
-      "id": 242
+      "id": 243
     },
     {
-      "id": 243,
+      "id": 244,
       "characterlist": "앨런마스크:1:mode=FADE_IN_AFTER_FORMER_FADE_OUT",
       "soundeffect": "SFX_Steam_Out"
     },
     {
-      "id": 244,
+      "id": 245,
       "feeling": "smile",
       "soundeffect": "SFX_Walk_Iron_Once"
     },
     {
-      "id": 245,
+      "id": 246,
       "characterlist": "ALL:-1, 야수파2:7, 야수파1:3",
       "effect": "Transition:type=black:startDuration=0.1:endDuration=0.3:direction=left",
       "soundeffect": "SFX_Walk_Stone, SFX_Walk_Iron:delay=0.14, SFX_Walk_Wood:delay=0.18"
     },
     {
-      "id": 246,
+      "id": 247,
       "characterlist": "ALL:-1, 단테:5",
       "effect": "Transition:type=black:startDuration=0.1:endDuration=0.3:direction=right",
       "voice": "D_Normal"
     },
     {
-      "id": 247
+      "id": 248
     }
   ]
 }

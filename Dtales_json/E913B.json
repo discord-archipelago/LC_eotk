@@ -4,7 +4,7 @@
       "id": 0,
       "characterlist": "털루포:8",
       "feeling": "surprise",
-      "bg": "story_little_finger_corridor",
+      "bg": "story_little_finger_corridor_v1",
       "effect": "CustomCamShake:[15][10][1],BloodDust:IN:Standing{8}",
       "bgm": "Sainokawara",
       "soundeffect": "BodyFallHeavy, SFX_Blood_Drip"
@@ -34,7 +34,6 @@
     },
     {
       "id": 6,
-      "characterlist": "ALL:-1",
       "soundeffect": "SFX_Punch_Swing"
     },
     {
@@ -172,7 +171,7 @@
       "id": 32,
       "characterlist": "료슈:5",
       "feeling": "angry3",
-      "bg": "story_little_finger_corridor",
+      "bg": "story_little_finger_corridor_v1",
       "cg": "glitch3:FadeIn:[0~0.1],glitch3:FadeOut:[0.2~0.3]",
       "bgm": "Sainokawara",
       "soundeffect": "SFX_Cloth_Crumble, SFX_Noise_Short_3"
@@ -289,7 +288,7 @@
     {
       "id": 56,
       "characterlist": "료슈:5,히스클리프:1",
-      "bg": "story_little_finger_corridor",
+      "bg": "story_little_finger_corridor_v1",
       "cg": "black:FadeOut",
       "effect": "Feeling:히스클리프=shork,SepiaFilter:[OUT]"
     },
