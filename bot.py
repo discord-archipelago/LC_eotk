@@ -67,7 +67,7 @@ def get_dtale_chapter(key: str) -> str:
     return "기타"
 
 def get_misc_category(key: str) -> str:
-    if re.match(r'^Announcer', key):              return "어나운서"
+    if re.match(r'^Announcer', key):              return "아나운서"
     if re.match(r'^AbDlg', key):                  return "선택지대사"
     if re.match(r'^Skills_(personality|Ego)', key): return "스킬설명"
     if re.match(r'^Passives?', key):              return "패시브"
@@ -167,7 +167,7 @@ def _extract_misc_entries(item: dict, category: str, scene: str) -> list:
         if not dialog: return []
         return [{**base, "speaker": item.get("teller", ""), "content": dialog, "extra": ""}]
 
-    if category in ("어나운서", "배틀대사"):
+    if category in ("아나운서", "배틀대사"):
         text = item.get("dlg", "") or item.get("desc", "")
         if not text: return []
         return [{**base, "speaker": "", "content": text, "extra": ""}]
@@ -178,7 +178,7 @@ def _extract_misc_entries(item: dict, category: str, scene: str) -> list:
     return [{**base, "speaker": "", "content": text, "extra": ""}]
 
 
-# ── 검색 함수 ────────────────────────────────
+# ── 검색 ────────────────────────────────
 def do_search(keyword: Optional[str], filter_val: Optional[str], speaker: Optional[str]) -> List[Dict]:
     results = []
     kw = keyword.lower() if keyword else None
@@ -256,7 +256,7 @@ class SearchView(discord.ui.View):
         kw_str      = f"**키워드:** `{self.keyword}`　" if self.keyword else ""
         speaker_str = f"**화자:** `{self.speaker}`　"  if self.speaker else ""
         embed = discord.Embed(
-            title="🔍 림버스 컴퍼니 대사 검색",
+            title=" 림버스 컴퍼니 대사 검색",
             description=(
                 f"{kw_str}{speaker_str}"
                 f"**장:** {self.chapter_label}　"
@@ -315,7 +315,7 @@ class MiscSearchView(discord.ui.View):
 
         kw_str = f"**키워드:** `{self.keyword}`　" if self.keyword else ""
         embed = discord.Embed(
-            title="📖 림버스 컴퍼니 설명 검색",
+            title=" 림버스 컴퍼니 설명 검색",
             description=(
                 f"{kw_str}"
                 f"**카테고리:** {self.category_label}　"
@@ -385,8 +385,8 @@ async def on_ready():
     app_commands.Choice(name="8장",               value="8"),
     app_commands.Choice(name="9장",               value="9"),
     app_commands.Choice(name="인터발로 전체",     value="inter_all"),
-    app_commands.Choice(name="3.5장 헬스 치킨",   value="3.5"),
-    app_commands.Choice(name="4.5장 우.미.다",    value="4.5"),
+    app_commands.Choice(name="3.5장",   value="3.5"),
+    app_commands.Choice(name="4.5장",    value="4.5"),
     app_commands.Choice(name="5.5장",             value="5.5"),
     app_commands.Choice(name="6.5장",             value="6.5"),
     app_commands.Choice(name="7.5장",             value="7.5"),
@@ -433,7 +433,7 @@ async def search_command(
 )
 @app_commands.choices(카테고리=[
     app_commands.Choice(name="전체",        value="all"),
-    app_commands.Choice(name="어나운서",    value="어나운서"),
+    app_commands.Choice(name="아나운서",    value="아나운서"),
     app_commands.Choice(name="선택지 대사", value="선택지 대사"),
     app_commands.Choice(name="스킬 설명",   value="스킬설명"),
     app_commands.Choice(name="패시브",      value="패시브"),
@@ -474,5 +474,5 @@ async def misc_search_command(
 if __name__ == "__main__":
     token = os.getenv("TOKEN")
     if not token:
-        raise ValueError("[봇] .env 파일에 TOKEN이 없습니다!")
+        raise ValueError("[봇] .env 파일에 TOKEN이 없습니다")
     bot.run(token)
